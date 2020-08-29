@@ -17,20 +17,21 @@ def manhattan_distance(state):
     for i in range(len(state)):
         if state[i] == '*':
             state[i] = 0
-    print(state)
-    return sum(abs((val-1)%4 - i%4) + abs((val-1)//4 - i//4) for i, val in enumerate(state) if val)
-
-def calculate_reward(state):
-    final_state = board.goal
-    punish = 0
-    for i in range(4):
-        for j in range(4):
-            if state[i][j] != final_state[i][j]:
-                punish += 1
-            # else:
-            #     reward -= 1
-    reward = 16-punish
-    return reward
+    # print(state)
+    d = sum(abs((val-1)%4 - i%4) + abs((val-1)//4 - i//4) for i, val in enumerate(state) if val)
+    return d
+    
+# def calculate_reward(state):
+#     final_state = board.goal
+#     punish = 0
+#     for i in range(4):
+#         for j in range(4):
+#             if state[i][j] != final_state[i][j]:
+#                 punish += 1
+#             # else:
+#             #     reward -= 1
+#     reward = 16-punish
+#     return reward
 
 
 def step(action): 
@@ -44,7 +45,8 @@ def step(action):
         board.move_right()
     
     next_state = board.get_state()
-    reward = calculate_reward(next_state)
+    # reward = calculate_reward(next_state)
+    reward = manhattan_distance(next_state)
     done = False
     if reward == 16:
         done = True
@@ -55,4 +57,5 @@ board = env.Board()
 board.shuffle(100)
 print(board.get_state())
 # print(step(2))
-print(manhattan_distance(board.get_state()))
+state = board.get_state()
+print(manhattan_distance(state))
