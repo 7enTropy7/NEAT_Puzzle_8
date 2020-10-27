@@ -26,7 +26,7 @@ $ pip3 install -r requirements.txt
 
 ## Demonstration
 ```bash
-$ python3 chaos.py
+$ python3 neat_agent.py
 ```
 
 ## Authors
