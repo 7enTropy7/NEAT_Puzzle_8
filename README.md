@@ -1,4 +1,3 @@
-# NEAT_Puzzle_8
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
 
 [![python3](https://img.shields.io/badge/python3-v3.6-teal?style=for-the-badge&logo=python)](https://www.python.org)
@@ -8,10 +7,10 @@
 [![Linkedin](https://img.shields.io/badge/Linkedin-Anirudh%20Menon-success?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/anirudh-menon-0b7764170/)
 [![Linkedin](https://img.shields.io/badge/Linkedin-Unnikrishnan%20Menon-red?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/unnikrishnan-menon-aa013415a/)
 
-# Chaotic_Genesis
+# NEAT_Puzzle_8
 
 
-This repository contains all codes related to our research paper titled "A Novel Chaotic System for Text Encryption Optimized with Genetic Algorithm". The paper is available here:
+This repository contains all codes related to our project that explores solving the puzzle 8 game using the genetic algorithm approach of NEAT. 
 
 
 ## Cloning
