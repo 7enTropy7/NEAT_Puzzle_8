@@ -36,8 +36,3 @@ $ python3 neat_agent.py
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blueviolet.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
-
-
-```
-
-```

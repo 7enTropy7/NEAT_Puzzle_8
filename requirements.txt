@@ -1,0 +1,5 @@
+gym==0.17.2
+numpy==1.17.4
+neat_python==0.92
+Keras==2.4.3
+neat==0.4.1
